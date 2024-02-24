@@ -1,6 +1,6 @@
 ## Introduction
 
-It is project developed under the guidance of Prof. Arnab Bhattacharya, IIT Kanpur.
+It is developed under the guidance of Prof. Arnab Bhattacharya, IIT Kanpur.
 
 ![Demo image1](app/static/img/demo1.png)
 
