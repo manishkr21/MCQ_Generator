@@ -2,11 +2,11 @@
 
 It is project developed under the guidance of Prof. Arnab Bhattacharya, IIT Kanpur.
 
-![Demo image1](static/img/demo1.png)
+![Demo image1](app/static/img/demo1.png)
 
-![Demo image2](static/img/demo2.png)
+![Demo image2](app/static/img/demo2.png)
 
-![Demo image3](static/img/demo3.png)
+![Demo image3](app/static/img/demo3.png)
 
 ## Installation
 
@@ -61,22 +61,22 @@ Then, open python shell and run the following commands:
 ```
 
 
-## Run
+## Check if model working (Optional)
 
 
 To generate question run the mcq_generator.py script inside mcq_generator directory.
+```
 	python mcq_generator.py --text <your-text>
+```
 	This will print the questions and their choices and answers.
 
 
-## Start Server
+## Start Application
 
-To start the server, run the following commands:
+To start the application, run the following commands:
 ```
-	(inside the server directory)
+	(inside the app directory)
 	$ export FLASK_APP=app.py
 	$ export FLASK_ENV=development
 	$ flask run
 ```
-	Start a live server and run the index page inside 'frontend' directory.
-    You can update link at static/js/script.js

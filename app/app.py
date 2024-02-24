@@ -1,6 +1,6 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
-from ..mcq_generator.mcq_generator import generate_mcqs
+from mcq_generator import generate_mcqs
 app = Flask(__name__)
 CORS(app)
 cors = CORS(app, resources={
@@ -10,7 +10,7 @@ cors = CORS(app, resources={
 })
 @app.route('/')
 def hello():
-    return 'Hello, World!'
+    return render_template('index.html')
 
 @app.route('/gen', methods=['POST'])
 def generate():
