@@ -2,7 +2,7 @@
 
 It is developed under the guidance of Prof. Arnab Bhattacharya, IIT Kanpur.
 
-![Demo image1](app/static/img/demo1.png)
+<kbd>![Demo image1](app/static/img/demo1.png)</kbd>
 
 ![Demo image2](app/static/img/demo2.png)
 
